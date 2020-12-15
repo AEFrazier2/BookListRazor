@@ -1,0 +1,36 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+	<TargetFramework>netcoreapp3.1</TargetFramework>
+	<CopyRefAssembliesToPublishDirectory>false</CopyRefAssembliesToPublishDirectory>
+	<UserSecretsId>94870746-d006-484c-8daf-e69043a9c2e1</UserSecretsId>
+	<OutputType>WinExe</OutputType>
+  </PropertyGroup>
+
+  <ItemGroup>
+	<Compile Remove="Pages\BookList\Index1.cshtml.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<Content Remove="compilerconfig.json" />
+	<Content Remove="Pages\BookList\Index1.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<None Include="compilerconfig.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<PackageReference Include="datatables.net" Version="1.10.21" />
+	<PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="3.1.8" />
+	<PackageReference Include="Microsoft.EntityFrameworkCore" Version="5.0.1" />
+	<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="5.0.1" />
+	<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="5.0.1">
+	  <PrivateAssets>all</PrivateAssets>
+	  <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	</PackageReference>
+	<PackageReference Include="SweetAlert" Version="1.0.0" />
+	<PackageReference Include="toastr" Version="2.1.1" />
+  </ItemGroup>
+
+</Project>

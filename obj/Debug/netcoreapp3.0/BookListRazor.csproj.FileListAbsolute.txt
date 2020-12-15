@@ -1,0 +1,7 @@
+C:\Users\aefra\source\repos\BookListRazor\obj\Debug\netcoreapp3.0\BookListRazor.csprojAssemblyReference.cache
+C:\Users\aefra\source\repos\BookListRazor\obj\Debug\netcoreapp3.0\BookListRazor.AssemblyInfoInputs.cache
+C:\Users\aefra\source\repos\BookListRazor\obj\Debug\netcoreapp3.0\BookListRazor.AssemblyInfo.cs
+C:\Users\aefra\source\repos\BookListRazor\obj\Debug\netcoreapp3.0\BookListRazor.csproj.CoreCompileInputs.cache
+C:\Users\aefra\source\repos\BookListRazor\obj\Debug\netcoreapp3.0\BookListRazor.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\aefra\source\repos\BookListRazor\obj\Debug\netcoreapp3.0\BookListRazor.RazorAssemblyInfo.cache
+C:\Users\aefra\source\repos\BookListRazor\obj\Debug\netcoreapp3.0\BookListRazor.RazorAssemblyInfo.cs
